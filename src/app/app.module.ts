@@ -11,6 +11,7 @@ import { UsdInrPipesPipe } from './pipes/usd-inr-pipes.pipe'
 import{ReactiveFormsModule} from '@angular/forms';
 import { RedElDirective } from './red-el.directive';
 import { ContactComponent } from './contact/contact.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ContactComponent } from './contact/contact.component';
     ChildsComponent,
     UsdInrPipesPipe,
     RedElDirective,
-    ContactComponent
+    ContactComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,FormsModule,ReactiveFormsModule,
