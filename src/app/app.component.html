@@ -1,0 +1,26 @@
+<!-- <button routerLink="/chil">redirect</button>
+<button routerLink="/dummy">redirect2</button>
+<router-outlet></router-outlet> -->
+<!-- {{data}}
+<app-child (updatedataEvent)="updatedata($event)"></app-child> -->
+
+
+<!-- <input type="text" [(ngModel)]="name">
+<p>{{name | lowercase}}</p> -->
+<!-- <p>{{20 | usdInrPipes:70}}</p> -->
+
+<form #loginForm="ngForm" (ngSubmit)="userLogin(loginForm.value)">
+<input type="text" placeholder="Enter Name" name="name" ngModel>
+<br/><br/>
+<input type="password" placeholder="Enter Password" name="password" ngModel>
+<br/><br/>
+<button>Login</button>
+</form>
+<!-- <form [FormGroup]="loginForm" (ngSubmit)="loginuser()">
+    <input type="text" placeholder="Enter Name" name="user" FormControlName="user" >
+    <br/><br/>
+    <input type="password" placeholder="Enter Password" name="password" FormControlName="password">
+    <br/><br/>
+    <button>Login</button>
+    </form> -->
+<!-- <button (click)="userLogin(loginForm.value)">out side</button> -->
